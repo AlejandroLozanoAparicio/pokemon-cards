@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "rootDir": ".",
-    "typeRoots": ["./types", "node_modules/@types"],
+    "typeRoots": ["./types/**", "node_modules/@types"],
     "incremental": true,
     "plugins": [
       {

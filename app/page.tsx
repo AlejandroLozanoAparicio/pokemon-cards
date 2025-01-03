@@ -1,5 +1,6 @@
-
+import { Pokedex } from 'components/Pokedex/Pokedex'
 import type { Metadata } from 'next'
+import { getFirstGenPokemons } from 'utils/pokeapi/getFirstGenPokemons'
 
 export const metadata: Metadata = {
   title: 'Showcase Assets',
@@ -7,5 +8,7 @@ export const metadata: Metadata = {
 }
 
 export default async function HomePage() {
-  return <div>POKEMON PROJECT</div>
+  const firstGenPokemon = await getFirstGenPokemons()
+
+  return <Pokedex allPokemon={firstGenPokemon} />
 }
