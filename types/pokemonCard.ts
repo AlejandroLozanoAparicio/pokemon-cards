@@ -1,4 +1,4 @@
-import { Ability2, Sprites, Stat } from './pokeapi/getPokemon'
+import { Ability2, Sprites, Stat, Cries } from './pokeapi/getPokemon'
 
 export type PokemonCard = {
   name: string
@@ -7,6 +7,7 @@ export type PokemonCard = {
   abilities: Ability2[]
   stats: Stat[]
   sprites: Sprites
+  cries: Cries
   types: string[]
   moves: string[]
 }

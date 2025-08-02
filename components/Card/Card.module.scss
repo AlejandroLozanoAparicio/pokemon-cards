@@ -1,0 +1,22 @@
+.pokemon {
+  list-style-type: none;
+  background-color: #e5fcff;
+  height: fit-content;
+  max-height: 200px;
+  border-radius: 8px;
+  min-width: fit-content;
+}
+
+.visibleInfo {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 24px;
+
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.extraInfo {
+  display: none;
+}

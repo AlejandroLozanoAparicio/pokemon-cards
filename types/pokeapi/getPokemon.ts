@@ -43,7 +43,7 @@ type Gameindex = {
   version: Ability
 }
 
-type Cries = {
+export type Cries = {
   latest: string
   legacy: string
 }
